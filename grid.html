@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> my form</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+        
+	</head>
+    
+    <body>
+
+        <div id = "grid">
+            <header> 
+                <div class = "batton_box">      
+                    <div id = "batton1" class = "batton1">MAIN</div>
+                    <div id = "batton2" class = "batton1">LIBRARY</div>
+                    <div id = "batton3" class = "batton1">STORE</div>
+                    <div id = "batton4" class = "batton1">SUPPORT</div>
+                    <div id = "batton5" class = "batton1">ALL TOOLS</div>
+                </div>
+                <div id = "fild" class = "fild">
+                    <div id = "fild1" class = "fild1">
+                        Check out our tools for .NET and Visual Studio
+                        <div class = "box11">BLOCK1</div>
+                        <div class = "box12">BLOCK2</div>
+                    </div>
+                    <div id = "fild2" class = "fild2">some text 2</div>
+                    <div id = "fild3" class = "fild3">some text 3</div>
+                    <div id = "fild4" class = "fild4">some text 4</div>
+                    <div id = "fild5" class = "fild5">some text 5</div>
+                </div>
+            </header>
+            <main>
+                <div class = "container">
+                    <div class = "box1">
+                        <div class = "batton2">c/c++ fremeworks
+                            <div id = "lern" class = "lern">lern more</div>
+                        </div>
+                    </div>
+                    <div class = "box2">
+                        <div class = "batton2">JAVA fremeworks
+                              <div id = "lern" class = "lern">lern more</div>
+                        </div>
+                    </div>
+                    <div class = "box3">
+                        <div class = "batton2">PYTHON fremeworks
+                             <div id = "lern" class = "lern">lern more</div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer></footer>
+        </div>
+
+    </body>
+
+    <script>
+        var bat1 = document.getElementById("batton1");
+        var bat2 = document.getElementById("batton2");
+        var bat3 = document.getElementById("batton3");
+        var bat4 = document.getElementById("batton4");
+        var bat5 = document.getElementById("batton5");
+        var pl = document.getElementById("fild");
+
+        var f1 = document.getElementById("fild1");
+        var f2 = document.getElementById("fild2");
+        var f3 = document.getElementById("fild3");
+        var f4 = document.getElementById("fild4");
+        var f5 = document.getElementById("fild5");
+
+        /*pl.onmouseover = function () {
+             pl.style.display =  "block";
+        }
+        pl.onmouseout = function () {
+            pl.style.display = "none";
+        }*/
+
+        bat1.onmouseover = function () {
+            pl.style.display =  "block";
+            f1.style.display = "flex";
+        }
+        bat1.onmouseout = function () {
+            pl.style.display = "none";
+            f1.style.display = "none";
+        }
+
+        bat2.onmouseover = function () {
+            pl.style.display =  "block";
+            f2.style.display = "flex";
+        }
+        bat2.onmouseout = function () {
+            pl.style.display = "none";
+            f2.style.display = "none";
+        }
+
+        bat3.onmouseover = function () {
+            pl.style.display =  "block";
+            f3.style.display = "flex";
+        }
+        bat3.onmouseout = function () {
+            pl.style.display = "none";
+            f3.style.display = "none";
+        }
+
+         bat4.onmouseover = function () {
+            pl.style.display =  "block";
+            f4.style.display = "flex";
+        }
+        bat4.onmouseout = function () {
+            pl.style.display = "none";
+            f4.style.display = "none";
+        }
+
+        bat5.onmouseover = function () {
+            pl.style.display =  "block";
+            f5.style.display = "flex";
+        }
+        bat5.onmouseout = function () {
+            pl.style.display = "none";
+            f5.style.display = "none";
+        }
+
+    </script>
+
+</html>
